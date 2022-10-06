@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "923595448482",
-    "project_id": "auto-attendance-70fe2",
-    "storage_bucket": "auto-attendance-70fe2.appspot.com"
+    "project_number": "132266848885",
+    "project_id": "gcek-1133a",
+    "storage_bucket": "gcek-1133a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:923595448482:android:2d89b69e37c9f1cd4477fb",
+        "mobilesdk_app_id": "1:132266848885:android:e6b0ba2abc99695bc03e3c",
         "android_client_info": {
           "package_name": "com.example.gcek"
         }
       },
       "oauth_client": [
         {
-          "client_id": "923595448482-a61durhjfnvqinkt09jucso5og6c4ig4.apps.googleusercontent.com",
+          "client_id": "132266848885-fnqktackt2sr9reukelt9ibb5a0njof9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gcek",
+            "certificate_hash": "d0d8dbff296f06355ed5fa1e9c59e8d4fb92ec9b"
+          }
+        },
+        {
+          "client_id": "132266848885-r2cipt1i1p19fkaf6j7t34mu23rtg8nt.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAdRDs0Qj9_AUiFGdCFxBzDUSIO_5_otOg"
+          "current_key": "AIzaSyC_SWm5_tMmpmL2cLQt0SRjhWh5FhOa4O4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "923595448482-a61durhjfnvqinkt09jucso5og6c4ig4.apps.googleusercontent.com",
+              "client_id": "132266848885-r2cipt1i1p19fkaf6j7t34mu23rtg8nt.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

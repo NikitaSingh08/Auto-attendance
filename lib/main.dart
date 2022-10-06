@@ -2,12 +2,13 @@
 import 'dart:core';
 import 'package:flutter/material.dart';
 import 'package:gcek/Campus.dart';
+import 'package:gcek/Screens/login_screen.dart';
 import 'package:gcek/attendance.dart';
 import 'package:gcek/constants.dart';
 import 'package:gcek/app_form/leaveapp.dart';
 import 'package:gcek/leavesmry.dart';
 import 'package:firebase_core/firebase_core.dart';
-//import 'package:flutter_svg/flutter_svg.dart';
+
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,7 +34,8 @@ class MyApp extends StatelessWidget {
             .apply(displayColor: kTextColor, fontFamily: 'Montserrat'),
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+     // home: const HomeScreen(),
+      home: const LoginScreen(),
     );
   }
 }
@@ -145,7 +147,7 @@ class HomeScreen extends StatelessWidget {
                                 ),
                                 // Spacer(),
                                 Text(
-                                  'CAMPUS',
+                                  'LOCATION',
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                       color: Colors.black, fontSize: 15),
